@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diego Pimentel</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" type="text/javascript"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="homebutton">
+            <div id="button">
+                <a href="./index.html"><b>diego</b></a>
+            </div>
+        </div>
+        
+        <div class="pages"> 
+            <a id="proj" href="./projects.html">Projects</a>
+            <a id="hobb" href="./hobbies.html">Hobbies</a>
+            <!-- <a id="pics" href="./pictures.html">Pictures</a> -->
+        </div>
+    </div>
+
+    <div class="home">
+        <div class="title">
+            <div class="titleText">
+                <h1>Diego</h1>
+                <h1>Pimentel</h1>
+            </div>
+            <div class="socialMedia">
+                <a href="https://www.instagram.com/_diego404_/?utm_source=ig_web_button_share_sheet">
+                    <img src="./media/Instagram.png">
+                </a>
+                <a href="https://www.linkedin.com/in/diego-pimentel-9b41302b2/">
+                    <img src="./media/Linkedin.png">
+                </a>
+                <a href="https://github.com/diegopim">
+                    <img src="./media/Github.png">
+                </a>
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picCrop">
+                <img src="./media/IMG_3061.png">
+            </div>
+        </div>
+    </div>
+    <div class="learnMore">
+        <b id="learnText">Learn more about me</b>
+    </div>
+
+    <div class="home2">
+        <div class="aboutMeArea">
+            <div class="aboutMe">
+                <h1 id="aboutTitle">About me</h1>
+                <br>
+                <b>My name is Diego Pimentel. I am currently a 2nd year student at UC Berkeley. I am studying Computer Science and hope to work in software engineering.</p>
+                <b>Here are some facts about me:
+                    <ul>
+                        <li>I play the baritone in the Cal Band</li>
+                        <li>I am interested in astronomy</li>
+                        <li>I love hiking and exploring nature around me</li>
+                    </ul> 
+                    <p>Thanks for checking out my website!</p> 
+                </b>
+            </div>
+        </div>
+        
+        <div class="formArea">
+            <form class="form">
+                <h1 id="contactMe">Contact Me!</h1>
+                <div class="formName">
+                    <label>Name:<br></label>
+                    <input type="text" id="nameForm" placeholder="Your Name" required>
+                </div>
+
+                <div class="formEmail">
+                    <label>Email:<br></label>
+                    <input type="email" id="emailForm" placeholder="Your Email" required>
+                </div>
+
+                <div class="formMessage">
+                    <label>Message:<br></label>
+                    <textarea id="messageForm" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button id="formButton" type="button"><b>Submit</b></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        submitForm();
+    </script>
+</body>
+</html>
